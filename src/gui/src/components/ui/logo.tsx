@@ -16,7 +16,7 @@ export const Logo = forwardRef<
         nrz
       </span>
       <span className="text-2xl font-light leading-none tracking-wide text-neutral-500">
-        {'/vōlt/'}
+        {''}
       </span>
     </h1>
   </div>

@@ -1,6 +1,6 @@
 ![nrz](https://github.com/user-attachments/assets/aec7c817-b83f-4d71-b34a-4e480b97e82c)
 
-# nrz /vōlt/
+# NRZ
 
 ![nrz Version](https://img.shields.io/npm/v/nrz?logo=npm&label=Version)
 ![Package Downloads](https://img.shields.io/npm/dm/nrz?logo=npm&label=Downloads)

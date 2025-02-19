@@ -41,7 +41,7 @@ export default defineConfig({
           preserveIndent: true,
         },
       },
-      title: 'nrz /vōlt/',
+      title: 'NRZ',
       social: {
         linkedin: 'https://www.linkedin.com/company/nrz',
         twitter: 'https://twitter.com/nrz',
