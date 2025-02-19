@@ -1,9 +1,6 @@
 import { joinDepIDTuple } from '@nrz/dep-id'
 import { Spec } from '@nrz/spec'
-import {
-  type Manifest,
-  type DependencyTypeShort,
-} from '@nrz/types'
+import { type Manifest, type DependencyTypeShort } from '@nrz/types'
 import t from 'tap'
 import { Edge } from '../src/edge.ts'
 import { Graph } from '../src/graph.ts'

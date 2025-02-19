@@ -1,7 +1,4 @@
-import {
-  type Manifest,
-  type DependencyTypeShort,
-} from '@nrz/types'
+import { type Manifest, type DependencyTypeShort } from '@nrz/types'
 import { lockfile } from '@nrz/graph/browser'
 import { type DepID } from '@nrz/dep-id/browser'
 import {

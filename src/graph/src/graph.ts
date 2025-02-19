@@ -2,10 +2,7 @@ import { getId, joinDepIDTuple, type DepID } from '@nrz/dep-id'
 import { error } from '@nrz/error-cause'
 import { satisfies } from '@nrz/satisfies'
 import { Spec, type SpecOptions } from '@nrz/spec'
-import {
-  type Manifest,
-  type DependencyTypeShort,
-} from '@nrz/types'
+import { type Manifest, type DependencyTypeShort } from '@nrz/types'
 import { type Monorepo } from '@nrz/workspaces'
 import { inspect, type InspectOptions } from 'util'
 import { type Edge } from './edge.ts'

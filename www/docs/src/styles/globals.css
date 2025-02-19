@@ -11,11 +11,8 @@
 }
 
 .dark-wave {
-  background-image: linear-gradient(
-      to bottom,
-      #000000,
-      rgba(0, 0, 0, 0.5)
-    ),
+  background-image:
+    linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.5)),
     linear-gradient(to right, #000000, rgba(0, 0, 0, 0)),
     url('/images/wave-dark.png');
   background-position: bottom right !important;
@@ -26,11 +23,8 @@
 }
 
 .light-wave {
-  background-image: linear-gradient(
-      to bottom,
-      #ffffff,
-      rgba(255, 255, 255, 0)
-    ),
+  background-image:
+    linear-gradient(to bottom, #ffffff, rgba(255, 255, 255, 0)),
     linear-gradient(to right, #ffffff, rgba(255, 255, 255, 0)),
     url('/images/wave-light.png');
   background-position: bottom right !important;

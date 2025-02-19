@@ -471,7 +471,10 @@ t.test('parse argument options', t => {
   const nameAndBare = Spec.parse('foo', 'latest')
   const full = Spec.parse('foo@latest')
   t.matchOnly(full, nameAndBare)
-  t.equal(full, Spec.parse(full, { registry: 'https://khulnasoft.com' }))
+  t.equal(
+    full,
+    Spec.parse(full, { registry: 'https://khulnasoft.com' }),
+  )
   t.end()
 })
 
@@ -602,7 +605,9 @@ t.test('try to guess the conventional tarball URL', t => {
       )
     } else {
       const host =
-        r ? 'https://registry.khulnasoft.com' : 'https://registry.npmjs.org'
+        r ?
+          'https://registry.khulnasoft.com'
+        : 'https://registry.npmjs.org'
       const expect = String(new URL(path, host))
       t.equal(s.conventionalRegistryTarball, expect)
     }

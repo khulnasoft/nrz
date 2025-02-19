@@ -3,10 +3,7 @@ import {
   type DepIDTuple,
   joinDepIDTuple,
 } from '@nrz/dep-id'
-import {
-  manifest,
-  type PackageInfoClient,
-} from '@nrz/package-info'
+import { manifest, type PackageInfoClient } from '@nrz/package-info'
 import { PackageJson } from '@nrz/package-json'
 import { Spec, type SpecOptions } from '@nrz/spec'
 import { Monorepo } from '@nrz/workspaces'

@@ -1,8 +1,5 @@
 import { type DepID } from '@nrz/dep-id'
-import {
-  type Manifest,
-  type DependencyTypeShort,
-} from '@nrz/types'
+import { type Manifest, type DependencyTypeShort } from '@nrz/types'
 import { type Spec, type SpecLikeBase } from '@nrz/spec'
 
 export type EdgeLike = {

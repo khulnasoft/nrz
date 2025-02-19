@@ -1,5 +1,5 @@
 {
-  "name": "nrz-root",
+  "name": "@nrz/nrz",
   "version": "0.0.0-0",
   "private": true,
   "description": "Add a brief description of the project here",
@@ -22,7 +22,7 @@
     "eslint": "catalog:",
     "eslint-import-resolver-typescript": "^3.7.1",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-jsdoc": "^50.9.5",
+    "eslint-plugin-jsdoc": "^50.6.3",
     "globals": "^15.14.0",
     "npm-check-updates": "^17.1.14",
     "prettier": "catalog:",
