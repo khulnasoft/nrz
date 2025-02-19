@@ -41,4 +41,4 @@ jobs:
       - name: Run Publish
         run: node scripts/publish-workspaces.js --forReal
         env:
-          WORKSPACES_PUBLISH_TOKEN: ${{ secrets.WORKSPACES_PUBLISH_TOKEN }}
+          WORKSPACES_PUBLISH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}

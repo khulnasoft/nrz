@@ -5,10 +5,7 @@ import {
   type SpecLike,
   type SpecOptions,
 } from '@nrz/spec/browser'
-import {
-  type Manifest,
-  type DependencyTypeShort,
-} from '@nrz/types'
+import { type Manifest, type DependencyTypeShort } from '@nrz/types'
 
 const specOptions = {
   registries: {

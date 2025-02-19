@@ -35,8 +35,7 @@ export const usage: CommandUsage = () =>
           'Query all direct project dependencies with a "build" script',
       },
       [`'[name^="@nrz"]'`]: {
-        description:
-          'Query packages with names starting with "@nrz"',
+        description: 'Query packages with names starting with "@nrz"',
       },
     },
     options: {

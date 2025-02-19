@@ -421,10 +421,7 @@ t.test('user-agent', t => {
         value: { bun: 'bunver' },
       })
       const { userAgent } = await mockIndex(t)
-      t.match(
-        userAgent,
-        /^@nrz\/registry-client\/[^ ]+ Bun\/bunver$/,
-      )
+      t.match(userAgent, /^@nrz\/registry-client\/[^ ]+ Bun\/bunver$/)
     })
 
     t.test('deno', async t => {

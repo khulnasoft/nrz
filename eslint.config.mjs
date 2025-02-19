@@ -57,10 +57,7 @@ export default tseslint.config(
       'import/resolver': {
         typescript: {
           alwaysTryTypes: true,
-          conditionNames: [
-            '@nrz/source',
-            ...defaultConditionNames,
-          ],
+          conditionNames: ['@nrz/source', ...defaultConditionNames],
           project:
             // If run from the root specify glob patterns to all ts projects
             // otherwise just use the tsconfig.json in the current directory

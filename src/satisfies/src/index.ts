@@ -1,8 +1,4 @@
-import {
-  type DepID,
-  type DepIDTuple,
-  splitDepID,
-} from '@nrz/dep-id'
+import { type DepID, type DepIDTuple, splitDepID } from '@nrz/dep-id'
 import { error } from '@nrz/error-cause'
 import { parse, Version } from '@nrz/semver'
 import { type GitSelectorParsed, Spec } from '@nrz/spec'

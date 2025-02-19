@@ -61,44 +61,44 @@ Array [
 
 exports[`test/project-info.ts > TAP > getGraphProjectData > should return emtpy response on missing folder 1`] = `
 Object {
-  "tools": Array [],
   "nrzInstalled": false,
+  "tools": Array [],
 }
 `
 
 exports[`test/project-info.ts > TAP > getGraphProjectData > should return the correct graph project data for a node+npm project 1`] = `
 Object {
+  "nrzInstalled": false,
   "tools": Array [
     "node",
     "npm",
   ],
-  "nrzInstalled": false,
 }
 `
 
 exports[`test/project-info.ts > TAP > getGraphProjectData > should return the correct graph project data for a non-installed nrz project 1`] = `
 Object {
+  "nrzInstalled": false,
   "tools": Array [
     "nrz",
   ],
-  "nrzInstalled": false,
 }
 `
 
 exports[`test/project-info.ts > TAP > getGraphProjectData > should return the correct graph project data for a nrz project 1`] = `
 Object {
+  "nrzInstalled": true,
   "tools": Array [
     "nrz",
   ],
-  "nrzInstalled": true,
 }
 `
 
 exports[`test/project-info.ts > TAP > getGraphProjectData empty nrz-installed project > should return nrzInstalled: true for an empty but installed project 1`] = `
 Object {
+  "nrzInstalled": true,
   "tools": Array [
     "nrz",
   ],
-  "nrzInstalled": true,
 }
 `
